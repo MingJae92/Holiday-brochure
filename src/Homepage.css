@@ -1,0 +1,27 @@
+.Logo{
+    color: royalblues;
+}
+
+.btn-lg{
+    height: 50px;
+    width: 200px;
+    margin: 1rem;
+}
+
+footer a{
+    margin: 1rem;
+    height: 50px;
+}
+
+.container {
+    padding: 10px;
+}
+
+.navbar-brand{
+    padding-left: 0.5em;
+    padding-top: 1em;
+}
+
+.card-img-overlay{
+    margin: 110px;
+}
