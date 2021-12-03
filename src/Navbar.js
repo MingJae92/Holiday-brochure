@@ -33,35 +33,40 @@ const Navbar = ()=>{
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                       <li className="nav-item">
-                          <a className="nav-link" href="#"><Routes>
+                          <a className="nav-link" href="/Europe">
+                          <Routes>
                             <Route path="/Europe" element={<Europe/>}/>
-                          </Routes></a>
-                          
+                          </Routes>Europe</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#"><Routes>
+                        <a className="nav-link" href="/Asia">
+                        <Routes>
                               <Route path="/Asia" element={<Asia/>}/>
-                            </Routes></a>
+                        </Routes>Asia</a>
                       </li>
                       <li className="nav-item">
-                      <a className="nav-link" href="#"><Routes>
+                      <a className="nav-link" href="/North-America">
+                          <Routes>
                             <Route path="/North-America" element={<NorthAmerica/>}/>
-                          </Routes></a>
+                          </Routes>North America</a>
                       </li>
                       <li className="nav-item">
-                      <a className="nav-link" href="#"><Routes>
+                      <a className="nav-link" href="/South-America">
+                          <Routes>
                             <Route path="/South-America" element={<SouthAmerica/>}/>
-                          </Routes></a>
+                          </Routes>South America</a>
                       </li>
                       <li className="nav-item">
-                      <a className="nav-link" href="#"><Routes>
+                      <a className="nav-link" href="/Africa">
+                          <Routes>
                             <Route path="/Africa" element={<Africa/>}/>
-                          </Routes></a>
+                          </Routes>Africa</a>
                       </li>
                       <li className="nav-item">
-                      <a className="nav-link" href="#"><Routes>
+                      <a className="nav-link" href="/More">
+                          <Routes>
                             <Route path="/More" element={<More/>}/>
-                          </Routes></a>
+                          </Routes>More</a>
                       </li>
                     </ul>
                   </div>
